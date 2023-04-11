@@ -97,6 +97,17 @@ p {
 .works {
   margin-top: 100px;
 }
+
+.skill {
+  border: 2px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+}
 @media (max-width: 700px) {
   h1 {
     font-size: 70px;
