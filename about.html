@@ -41,7 +41,10 @@
               <a class="nav-link active" href="/about.html">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/index.html#skills">Skills and Tools</a>
+              <a class="nav-link" href="/index.html#skills">My Skills and Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html#my-projects">My Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contact.html">Contact me</a>
@@ -50,21 +53,31 @@
         </div>
       </div>
     </nav>
-
-    <h1 class="works">About me</h1>
-    <h3>Front-end developer from Abuja, Nigeria</h3>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <h2 class="about-welcome mb-4">Welcome to my page!&#129303</h2>
+    
     <div class="about-paragraphs">
-      <p class="text-center">
+      <p class="text-center about-description">
         My name is Mary Ogbeide, I am a software developer skilled in Front-end
         website development and full-stack React Native mobile applications
         development for Android and iOS.
       </p>
     </div>
+  </div>
+    <div class="col-md-6">
+      <img src="images/MOT-99277.jpg" alt="my-photo" class="my-photo img-fluid">
+    </div>
+  </div>
+  </div>
 
+
+    <h2 id="my-projects">My Projects&#127942</h2>
     <div class="container mb-5">
       <div class="row my-5">
         <div class="col">
-          <h2>Weather app</h2>
+          <h2 class="project">Weather app</h2>
           <p class="text-center">
             A web application used to view the current weather condition of all
             countries and states in the world. It also displays the weather
@@ -97,7 +110,7 @@
           />
         </div>
         <div class="col">
-          <h2>Mymoni mobile app</h2>
+          <h2 class="project">Mymoni mobile app</h2>
           <p class="text-center">
             A financial tracking mobile application for Android and iOS
             platforms. Developed using React Native and firebase database. Used
@@ -114,7 +127,32 @@
           </div>
         </div>
       </div>
+      
+      <div class="row my-5">
+          <div class="col">
+            <h2 class="project">JoeCoffee Company website</h2>
+            <p class="text-center">
+              A clone of JeoCoffee company website designed with only HTML and CSS
+            <div class="d-grid gap-2 d-md-block">
+              <a
+                href="https://meek-pudding-bb4d65.netlify.app/"
+                class="btn btn-primary p-3"
+                title="View joecoffee website clone"
+                target="_blank"
+                >View clone website</a
+              >
+            </div>
+          </div>
+          <div class="col d-none d-md-block">
+            <img
+              class="rounded img-fluid"
+              src="/images/joecoffee.png"
+              alt="JoeCoffee website"
+            />
+          </div>
+        </div>
     </div>
+  </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

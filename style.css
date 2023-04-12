@@ -6,8 +6,7 @@
 
 body {
   margin: auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1,
@@ -24,6 +23,9 @@ h1 {
 
 h2 {
   font-size: 48px;
+  background-color: #f7f3ff;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 h3 {
@@ -34,7 +36,7 @@ h3 {
 p {
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.5;
 }
 
@@ -99,6 +101,14 @@ p {
 .works {
   margin-top: 100px;
 }
+.about-welcome {
+  margin-top: 100px;
+  background-color: white;
+}
+.my-photo {
+  padding: 100px;
+  border-radius: 30px;
+}
 
 .skill {
   border: 2px solid var(--primary-color);
@@ -109,6 +119,9 @@ p {
   border-radius: 8px;
   padding: 10px;
   font-weight: bold;
+}
+.project {
+  background-color: white;
 }
 
 .contact-image {
@@ -126,6 +139,7 @@ p {
 .github {
   margin-top: 20px;
 }
+
 @media (max-width: 700px) {
   h1 {
     font-size: 70px;
@@ -133,6 +147,9 @@ p {
   }
   h2 {
     font-size: 36px;
+  }
+  p {
+    font-size: 18px;
   }
   .email-link {
     font-size: 20px;
@@ -142,5 +159,9 @@ p {
   }
   .linkItems {
     margin: 10px;
+  }
+  .my-photo {
+    padding: 0 30px;
+    margin-bottom: 30px;
   }
 }
